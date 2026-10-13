@@ -58,7 +58,7 @@ text{font-family:'Segoe UI Variable Display','Segoe UI','SF Pro Display',-apple-
 <text x="516.7" y="46" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#8fd3ff">IN PROGRESS</text>
 <text x="30" y="94" font-size="15" fill="#a8bbea">One-stop research collaboration app: turns scattered ideas into research</text>
 <text x="30" y="118" font-size="15" fill="#a8bbea">concepts and automates literature retrieval &amp; analysis.</text>
-<circle cx="36" cy="161" r="6" fill="#f6c1d9"/>
+<circle cx="36" cy="161" r="6" fill="#ffe0c2"/>
 <text x="48" y="166" font-size="14" fill="#c9dcff">TypeScript</text>
 <g transform="translate(150.16 151) scale(0.72)" fill="#ffe0c2"><path d="M12 2.8l2.75 5.6 6.15.9-4.45 4.33 1.05 6.12L12 16.85l-5.5 2.9 1.05-6.12L3.1 9.3l6.15-.9z"/></g>
 <text x="172.2" y="166" font-size="14" fill="#c9dcff">1</text>
