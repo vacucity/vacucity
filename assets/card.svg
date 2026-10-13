@@ -83,12 +83,12 @@ text{font-family:'Segoe UI Variable Display','Segoe UI','SF Pro Display',-apple-
 
 <text x="62" y="194" font-size="64" font-weight="300" letter-spacing="2" fill="#eef4ff" filter="url(#cglow)">Chujie Wang</text>
 <text x="64" y="244" font-size="26" font-weight="400" fill="#c9dcff">M.S. in Applied Data Science</text>
-<text class="mono" x="64" y="280" font-size="15" fill="#a8bbea">Graduate Student  ·  2026 – 2028</text>
+<text class="mono" x="64" y="280" font-size="15" fill="#a8bbea">Graduate Student  ·  2026 – 2027</text>
 
 <rect x="64" y="306" width="290.8" height="32" rx="16" fill="#ffe0c2" fill-opacity=".1" stroke="#ffe0c2" stroke-opacity=".5"/>
 <circle class="pulse" cx="84" cy="322" r="4.5" fill="#ffe0c2"/>
 <circle cx="84" cy="322" r="4.5" fill="#ffe0c2"/>
-<text x="100" y="327" font-size="12" font-weight="700" letter-spacing="3" fill="#ffe0c2">ENROLLED  ·  CLASS OF 2028</text>
+<text x="100" y="327" font-size="12" font-weight="700" letter-spacing="3" fill="#ffe0c2">ENROLLED  ·  CLASS OF 2027</text>
 
 <g transform="translate(64 459) scale(1)" fill="none" stroke="#8fd3ff" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><rect x="2.5" y="5" width="19" height="14" rx="2.6"/><path d="M3.5 6.5l8.5 6.4 8.5-6.4"/></g><text x="100" y="478" font-size="19" fill="#c9dcff">chujie@uchicago.edu</text>
 <rect x="394" y="459" width="24" height="24" rx="5" fill="#0a66c2"/><g transform="translate(396.6 461.4) scale(0.8)" fill="#fff"><circle cx="6.4" cy="6.2" r="2.1"/><rect x="4.6" y="9.4" width="3.6" height="10" rx=".4"/><rect x="10.4" y="9.4" width="3.5" height="10" rx=".4"/><path d="M13.9 13.4c0-2.6 1.7-4.2 3.8-4.2 2.4 0 3.6 1.6 3.6 4.4v5.8h-3.6v-5.3c0-1.2-.5-1.9-1.5-1.9-1.1 0-2.3.7-2.3 2.2z"/></g><text x="430" y="478" font-size="19" fill="#c9dcff">linkedin.com/in/vacucity</text>

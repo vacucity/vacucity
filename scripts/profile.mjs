@@ -7,6 +7,9 @@ export const profile = {
   homepage: 'https://vacucity.github.io',
   email: 'chujie@uchicago.edu',
 
+  // Portrait blended into the right side of the header; remove to go back to the plain night scene.
+  heroine: 'art/heroine.jpg',
+
   kicker: 'VACUCITY  ·  ECONOMICS × AI',
   // Rotating lines under the name in the header banner.
   taglines: [
@@ -20,8 +23,8 @@ export const profile = {
   // Name card
   school: 'THE UNIVERSITY OF CHICAGO',
   program: 'M.S. in Applied Data Science',
-  cohort: 'Graduate Student  ·  2026 – 2028',
-  status: 'ENROLLED  ·  CLASS OF 2028',
+  cohort: 'Graduate Student  ·  2026 – 2027',
+  status: 'ENROLLED  ·  CLASS OF 2027',
   campus: '41.79° N · 87.60° W  —  HYDE PARK, CHICAGO',
 
   // LinkedIn card
@@ -33,7 +36,7 @@ export const profile = {
     { when: '07/2025 – 10/2025', org: 'Qu County Project', role: 'Modeling Consultant', kind: 'work' },
     { when: '11/2025 – 02/2026', org: 'HengZong XinXi', role: 'Algorithm Research · RAG', kind: 'work' },
     { when: '06/2026 – 09/2026', org: 'Guancheng Digital', role: 'Forward Deployed Engineer', kind: 'work' },
-    { when: '09/2026 – 06/2028', org: 'UChicago', role: 'M.S. Applied Data Science', kind: 'edu', now: true },
+    { when: '09/2026 – 12/2027', org: 'UChicago', role: 'M.S. Applied Data Science', kind: 'edu', now: true },
   ],
   focus: ['LLM Agents', 'Agentic RAG', 'Multimodal Metaphor Detection', 'Causal Inference · DID', 'Labor & Innovation Econ', 'FRM Part I'],
 

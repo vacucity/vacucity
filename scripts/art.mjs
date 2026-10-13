@@ -69,17 +69,41 @@ const animCss = `
 
 // ───────────────────────────── header ─────────────────────────────
 
-export function header(P) {
+// Soft oval fade plus a lift of the shadows, so the portrait reads as a pale backdrop.
+function heroineDefs(p) {
+  return `<radialGradient id="${p}fade" cx=".5" cy=".4" r=".5">
+  <stop offset="0" stop-color="#fff"/><stop offset=".45" stop-color="#fff" stop-opacity=".95"/><stop offset=".75" stop-color="#fff" stop-opacity=".4"/><stop offset=".95" stop-color="#fff" stop-opacity="0"/>
+</radialGradient>
+<filter id="${p}pale" color-interpolation-filters="sRGB">
+  <feColorMatrix type="saturate" values=".8"/>
+  <feComponentTransfer><feFuncR type="linear" slope=".75" intercept=".22"/><feFuncG type="linear" slope=".75" intercept=".22"/><feFuncB type="linear" slope=".72" intercept=".27"/></feComponentTransfer>
+</filter>`;
+}
+
+function heroineLayer(p, img, W) {
+  const w = 430, h = (w * img.height) / img.width;
+  const x = W - w + 20, y = -84;
+  return `<circle cx="${x + w * 0.45}" cy="${n(y + h * 0.36)}" r="190" fill="${C.lavender}" opacity=".3" filter="url(#${p}b4)"/>
+<mask id="${p}mask"><rect x="${x}" y="${y}" width="${w}" height="${n(h)}" fill="url(#${p}fade)"/></mask>
+<g class="breathe" opacity=".8" mask="url(#${p}mask)"><image href="${img.href}" x="${x}" y="${y}" width="${w}" height="${n(h)}" filter="url(#${p}pale)"/></g>`;
+}
+
+// heroine: optional { href, width, height } raster placed on the right as a soft, lightened backdrop.
+export function header(P, heroine) {
   const W = 1200, H = 420, HZ = 274, p = 'h';
   const r = rng(20261012);
   const title = P.name.toUpperCase();
   const ls = 22;
+  // With a portrait on the right, the title block shifts left to share the frame.
+  const CX = heroine ? 430 : 600;
   // Each tagline owns an equal slice of the cycle: fade in, hold, fade out.
   const seg = 100 / P.taglines.length;
 
   const css = `<style>${baseCss}${animCss}
 .sub{opacity:0;animation:sub ${P.taglines.length * 5}s ease-in-out infinite}
 .s0{opacity:1}
+.breathe{animation:breathe 8s ease-in-out infinite}
+@keyframes breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
 @keyframes sub{0%{opacity:0;transform:translateY(10px)}${n(seg * 0.16, 2)}%,${n(seg * 0.84, 2)}%{opacity:1;transform:translateY(0)}${n(seg, 2)}%,100%{opacity:0;transform:translateY(-8px)}}
 </style>`;
 
@@ -96,7 +120,7 @@ ${bokehDefs(p)}
 <radialGradient id="${p}vig" cx=".5" cy=".42" r=".78">
   <stop offset=".55" stop-color="${C.night0}" stop-opacity="0"/><stop offset="1" stop-color="#02040f" stop-opacity=".78"/>
 </radialGradient>
-<linearGradient id="${p}title" gradientUnits="userSpaceOnUse" x1="260" y1="0" x2="940" y2="0">
+<linearGradient id="${p}title" gradientUnits="userSpaceOnUse" x1="${CX - 340}" y1="0" x2="${CX + 340}" y2="0">
   <stop offset="0" stop-color="#c3d9ff"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#d8caff"/>
 </linearGradient>
 <linearGradient id="${p}shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="240" y2="0">
@@ -109,6 +133,7 @@ ${bokehDefs(p)}
 <linearGradient id="${p}edge" x1="0" y1="0" x2="1" y2="1">
   <stop offset="0" stop-color="${C.glow}" stop-opacity=".6"/><stop offset=".5" stop-color="${C.lavender}" stop-opacity=".12"/><stop offset="1" stop-color="${C.blush}" stop-opacity=".5"/>
 </linearGradient>
+${heroine ? heroineDefs(p) : ''}
 </defs>`;
 
   const { lights, refl } = harbourLights(p, r, W, HZ, 150);
@@ -118,7 +143,7 @@ ${bokehDefs(p)}
   for (let i = 0; i < 12; i++) {
     const left = i % 2 === 0;
     const x = left ? r() * 190 : W - r() * 190;
-    const y = r() * H;
+    const y = heroine && !left ? HZ + r() * (H - HZ) : r() * H;
     discs += bokehDisc(p, r, x, y, 16 + r() * 36, 0.55 + r() * 0.45);
   }
   for (let i = 0; i < 4; i++) discs += bokehDisc(p, r, 340 + r() * 520, HZ + 50 + r() * 90, 14 + r() * 22, 0.45);
@@ -134,7 +159,7 @@ ${bokehDefs(p)}
   const lines = P.taglines
     .map(
       (t, i) =>
-        `<g class="sub s${i}" style="animation-delay:${i * 5}s"><text x="600" y="232" text-anchor="middle" font-size="19" font-weight="300" letter-spacing="1" fill="#d8e6ff" filter="url(#${p}soft)">${esc(t)}</text></g>`,
+        `<g class="sub s${i}" style="animation-delay:${i * 5}s"><text x="${CX}" y="232" text-anchor="middle" font-size="19" font-weight="300" letter-spacing="1" fill="#d8e6ff" filter="url(#${p}soft)">${esc(t)}</text></g>`,
     )
     .join('');
 
@@ -143,7 +168,7 @@ ${bokehDefs(p)}
   <rect width="${W}" height="${HZ}" fill="url(#${p}sky)"/>
   <circle cx="1090" cy="10" r="250" fill="${C.lavender}" opacity=".3" filter="url(#${p}b4)"/>
   <circle cx="110" cy="40" r="200" fill="${C.sea1}" opacity=".22" filter="url(#${p}b4)"/>
-  <ellipse cx="600" cy="160" rx="430" ry="95" fill="#3a56c8" opacity=".28" filter="url(#${p}b4)"/>
+  <ellipse cx="${CX}" cy="160" rx="430" ry="95" fill="#3a56c8" opacity=".28" filter="url(#${p}b4)"/>
   ${stars(r, 90, 0, 0, W, HZ - 30)}
   <rect y="${HZ - 7}" width="${W}" height="7" fill="#0a1238" opacity=".55"/>
   <rect y="${HZ}" width="${W}" height="${H - HZ}" fill="url(#${p}sea)"/>
@@ -158,17 +183,18 @@ ${bokehDefs(p)}
   </g>
   ${glitter(r, W, HZ, H, 230)}
   ${glints}
+  ${heroine ? heroineLayer(p, heroine, W) : ''}
   ${discs}
   ${motes(r, W, HZ - 40, H, 18)}
   <rect width="${W}" height="${H}" fill="url(#${p}vig)"/>
 
-  ${sparkle(600 - kw / 2 - 20, 92, 6, C.glow, ` class="tw t2"`)}
-  ${sparkle(600 + kw / 2 + 14, 92, 6, C.blush, ` class="tw t3"`)}
-  <text x="${n(600 + 3)}" y="97" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="6" fill="${C.muted}">${esc(P.kicker)}</text>
-  <text x="${600 + ls / 2}" y="170" text-anchor="middle" font-size="68" font-weight="200" letter-spacing="${ls}" fill="url(#${p}title)" filter="url(#${p}glow)">${esc(title)}</text>
-  <text x="${600 + ls / 2}" y="170" text-anchor="middle" font-size="68" font-weight="200" letter-spacing="${ls}" fill="url(#${p}shine)">${esc(title)}</text>
-  <rect x="${n(600 - tw / 2)}" y="194" width="${n(tw)}" height="1.2" fill="url(#${p}rule)"/>
-  ${sparkle(600, 194.6, 5.5, C.ribbon, ` filter="url(#${p}soft)"`)}
+  ${sparkle(CX - kw / 2 - 20, 92, 6, C.glow, ` class="tw t2"`)}
+  ${sparkle(CX + kw / 2 + 14, 92, 6, C.blush, ` class="tw t3"`)}
+  <text x="${n(CX + 3)}" y="97" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="6" fill="${C.muted}">${esc(P.kicker)}</text>
+  <text x="${CX + ls / 2}" y="170" text-anchor="middle" font-size="68" font-weight="200" letter-spacing="${ls}" fill="url(#${p}title)" filter="url(#${p}glow)">${esc(title)}</text>
+  <text x="${CX + ls / 2}" y="170" text-anchor="middle" font-size="68" font-weight="200" letter-spacing="${ls}" fill="url(#${p}shine)">${esc(title)}</text>
+  <rect x="${n(CX - tw / 2)}" y="194" width="${n(tw)}" height="1.2" fill="url(#${p}rule)"/>
+  ${sparkle(CX, 194.6, 5.5, C.ribbon, ` filter="url(#${p}soft)"`)}
   ${lines}
 </g>
 <rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="21" fill="none" stroke="url(#${p}edge)" stroke-width="2"/>`;

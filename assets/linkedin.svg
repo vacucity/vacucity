@@ -123,7 +123,7 @@ text{font-family:'Segoe UI Variable Display','Segoe UI','SF Pro Display',-apple-
 <circle class="pulse" cx="1070" cy="374" r="8" fill="none" stroke="#ffe0c2" stroke-width="1.5"/>
 <circle cx="1070" cy="374" r="7" fill="#ffe0c2"/>
 <circle cx="1070" cy="374" r="2.2" fill="#ffffff"/>
-<text class="mono" x="1070" y="262" text-anchor="middle" font-size="12" fill="#b9a8ff" letter-spacing=".5">09/2026 – 06/2028  ·  NOW</text>
+<text class="mono" x="1070" y="262" text-anchor="middle" font-size="12" fill="#b9a8ff" letter-spacing=".5">09/2026 – 12/2027  ·  NOW</text>
 <text x="1070" y="290" text-anchor="middle" font-size="17" font-weight="600" fill="#eef4ff">UChicago</text>
 <text x="1070" y="314" text-anchor="middle" font-size="14" fill="#a8bbea">M.S. Applied Data Science</text>
 <text x="48" y="552" font-size="12" font-weight="700" letter-spacing="4" fill="#6f82bd">FOCUS</text><rect x="124" y="530" width="106.2" height="32" rx="16" fill="#8fd3ff" fill-opacity=".1" stroke="#8fd3ff" stroke-opacity=".45"/>

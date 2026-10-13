@@ -12,9 +12,9 @@
 
 ## ✦ About me
 
-<p align="center"><a href="https://www.linkedin.com/in/vacucity"><img src="./assets/card.svg" width="80%" alt="Name card: Chujie Wang, M.S. in Applied Data Science, The University of Chicago, class of 2028"/></a></p>
+<p align="center"><a href="https://www.linkedin.com/in/vacucity"><img src="./assets/card.svg" width="80%" alt="Name card: Chujie Wang, M.S. in Applied Data Science, The University of Chicago, class of 2027"/></a></p>
 
-- 🎓 **M.S. Applied Data Science @ UChicago** (2026 – 2028) · Finance @ ZUEL (2021 – 2025)
+- 🎓 **M.S. Applied Data Science @ UChicago** (2026 – 2027) · Finance @ ZUEL (2021 – 2025)
 - 🤖 Building **LLM agents & agentic RAG**, from research tooling to multi-agent decision reports
 - 📈 Empirical economist at heart: **labor, innovation, ESG & digital governance**, mostly staggered DID
 - 🧪 Also exploring **multimodal metaphor detection** and multimodal information fusion
