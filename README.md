@@ -4,8 +4,6 @@
 
 <a href="https://www.linkedin.com/in/vacucity"><img src="./assets/btn-linkedin.svg" height="58" alt="LinkedIn: in/vacucity"/></a>&nbsp;<a href="https://vacucity.github.io"><img src="./assets/btn-homepage.svg" height="58" alt="Homepage: vacucity.github.io"/></a>&nbsp;<a href="mailto:chujie@uchicago.edu"><img src="./assets/btn-email.svg" height="58" alt="Email: chujie@uchicago.edu"/></a>
 
-<img src="https://komarev.com/ghpvc/?username=vacucity&label=VISITORS&color=6f9bff&style=flat-square" alt="profile views"/>
-
 </div>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
