@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="76" viewBox="0 0 300 76" role="img" aria-label="Homepage: vacucity.github.io">
+<title>Homepage: vacucity.github.io</title>
+<style>
+text{font-family:'Segoe UI Variable Display','Segoe UI','SF Pro Display',-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif}
+.mono{font-family:'Cascadia Code','SF Mono','JetBrains Mono',Consolas,Menlo,monospace}
+.tw{animation:tw 4s ease-in-out infinite}
+.t1{animation-duration:2.6s}.t2{animation-duration:3.4s}.t3{animation-duration:4.6s}.t4{animation-duration:6s}
+@keyframes tw{0%,100%{opacity:.12}50%{opacity:1}}
+.float{animation:float 9s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+.pulse{animation:pulse 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(3.2)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.sweep{animation:sweep 6s ease-in-out infinite;animation-delay:0.86s}
+@keyframes sweep{0%{transform:translateX(-140px)}35%,100%{transform:translateX(440px)}}
+</style>
+<defs>
+<filter id="bgb1" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.2"/></filter>
+<filter id="bgb2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"/></filter>
+<filter id="bgb3" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="bgb4" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="22"/></filter>
+<filter id="bgglow" x="-30%" y="-80%" width="160%" height="260%">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="9" result="a"/>
+  <feFlood flood-color="#8fd3ff" flood-opacity=".75"/>
+  <feComposite in2="a" operator="in" result="g"/>
+  <feGaussianBlur in="SourceGraphic" stdDeviation="1.4" result="s"/>
+  <feMerge><feMergeNode in="g"/><feMergeNode in="g"/><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="bgsoft" x="-30%" y="-80%" width="160%" height="260%">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="a"/>
+  <feFlood flood-color="#8fd3ff" flood-opacity=".45"/>
+  <feComposite in2="a" operator="in" result="g"/>
+  <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<clipPath id="bgclip"><rect width="300" height="76" rx="38"/></clipPath>
+<linearGradient id="bgbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1236"/><stop offset="1" stop-color="#1a2b78"/></linearGradient>
+<linearGradient id="bgedge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8fd3ff" stop-opacity=".95"/><stop offset=".6" stop-color="#b9a8ff" stop-opacity=".25"/><stop offset="1" stop-color="#f6c1d9" stop-opacity=".6"/></linearGradient>
+<linearGradient id="bgsw" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
+<g clip-path="url(#bgclip)">
+  <rect width="300" height="76" fill="url(#bgbg)"/>
+  <circle cx="40" cy="38" r="60" fill="#8fd3ff" opacity=".35" filter="url(#bgb4)"/>
+  <circle cx="270" cy="76" r="50" fill="#b9a8ff" opacity=".22" filter="url(#bgb4)"/>
+  <circle class="tw t1" cx="96.6" cy="37.4" r="1.15" fill="#ffffff" style="animation-delay:-4.18s"/><circle class="tw t1" cx="220.8" cy="35.3" r="0.99" fill="#dcd2ff" style="animation-delay:-1.96s"/><circle class="tw t3" cx="193.4" cy="52.3" r="0.92" fill="#dcd2ff" style="animation-delay:-5.98s"/><circle class="tw t2" cx="133" cy="16.2" r="1.11" fill="#c9dcff" style="animation-delay:-1.41s"/><circle class="tw t2" cx="109" cy="23.1" r="0.44" fill="#c9dcff" style="animation-delay:-1.94s"/><circle class="tw t2" cx="117.4" cy="39.7" r="0.89" fill="#e8f4ff" style="animation-delay:-2.07s"/><circle class="tw t1" cx="134" cy="23.1" r="1" fill="#ffffff" style="animation-delay:-3.44s"/><circle class="tw t3" cx="192.4" cy="6.4" r="0.48" fill="#c9dcff" style="animation-delay:-0.89s"/><circle class="tw t1" cx="163.2" cy="24" r="1.08" fill="#e8f4ff" style="animation-delay:-2.33s"/><circle class="tw t4" cx="129.3" cy="24.3" r="0.45" fill="#ffffff" style="animation-delay:-0.18s"/><circle class="tw t2" cx="211" cy="32.4" r="0.76" fill="#ffffff" style="animation-delay:-0.26s"/><circle class="tw t4" cx="197.8" cy="36" r="1.16" fill="#c9dcff" style="animation-delay:-3.59s"/><circle class="tw t1" cx="253.8" cy="15.1" r="1.16" fill="#dcd2ff" style="animation-delay:-0.86s"/><circle class="tw t4" cx="275.4" cy="2.3" r="0.6" fill="#ffffff" style="animation-delay:-2.95s"/>
+  <g class="sweep"><rect x="-60" y="-20" width="70" height="116" fill="url(#bgsw)" transform="skewX(-20)"/></g>
+</g>
+<rect x="1" y="1" width="298" height="74" rx="37" fill="none" stroke="url(#bgedge)" stroke-width="1.6"/>
+<circle cx="38" cy="38" r="22" fill="#8fd3ff" fill-opacity=".14" stroke="#8fd3ff" stroke-opacity=".7"/><g transform="translate(24.8 24.8) scale(1.1)" fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="9.2"/><ellipse cx="12" cy="12" rx="4" ry="9.2"/><path d="M3 12h18M4.6 7.4h14.8M4.6 16.6h14.8"/></g>
+<text x="76" y="35" font-size="20" font-weight="600" fill="#eef4ff">Homepage</text>
+<text class="mono" x="76" y="57" font-size="13" fill="#a8bbea">vacucity.github.io</text>
+<path d="M258 44l9-9m-6.5 0h6.5v6.5" fill="none" stroke="#a8bbea" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

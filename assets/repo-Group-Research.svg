@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200" role="img" aria-label="Group-Research: One-stop research collaboration app: turns scattered ideas into research concepts and automates literature retrieval &amp; analysis.">
+<title>Group-Research: One-stop research collaboration app: turns scattered ideas into research concepts and automates literature retrieval &amp; analysis.</title>
+<style>
+text{font-family:'Segoe UI Variable Display','Segoe UI','SF Pro Display',-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif}
+.mono{font-family:'Cascadia Code','SF Mono','JetBrains Mono',Consolas,Menlo,monospace}
+.tw{animation:tw 4s ease-in-out infinite}
+.t1{animation-duration:2.6s}.t2{animation-duration:3.4s}.t3{animation-duration:4.6s}.t4{animation-duration:6s}
+@keyframes tw{0%,100%{opacity:.12}50%{opacity:1}}
+.float{animation:float 9s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+.pulse{animation:pulse 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(3.2)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.scan{animation:scan 8s ease-in-out infinite;animation-delay:-0s}
+@keyframes scan{0%{transform:translateX(-200px)}50%,100%{transform:translateX(800px)}}
+</style>
+<defs>
+<filter id="r0b1" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.2"/></filter>
+<filter id="r0b2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"/></filter>
+<filter id="r0b3" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="r0b4" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="22"/></filter>
+<filter id="r0glow" x="-30%" y="-80%" width="160%" height="260%">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="9" result="a"/>
+  <feFlood flood-color="#8fd3ff" flood-opacity=".75"/>
+  <feComposite in2="a" operator="in" result="g"/>
+  <feGaussianBlur in="SourceGraphic" stdDeviation="1.4" result="s"/>
+  <feMerge><feMergeNode in="g"/><feMergeNode in="g"/><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="r0soft" x="-30%" y="-80%" width="160%" height="260%">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="a"/>
+  <feFlood flood-color="#8fd3ff" flood-opacity=".45"/>
+  <feComposite in2="a" operator="in" result="g"/>
+  <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<linearGradient id="r0bg" x1="0" y1="0" x2=".35" y2="1">
+  <stop offset="0" stop-color="#050920"/><stop offset=".55" stop-color="#0b1236"/><stop offset="1" stop-color="#16246a"/>
+</linearGradient>
+<linearGradient id="r0edge" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#8fd3ff" stop-opacity=".55"/><stop offset=".45" stop-color="#b9a8ff" stop-opacity=".12"/><stop offset="1" stop-color="#f6c1d9" stop-opacity=".45"/>
+</linearGradient>
+<clipPath id="r0clip"><rect width="600" height="200" rx="16"/></clipPath>
+<radialGradient id="r0k0"><stop offset="0" stop-color="#fff3e0" stop-opacity=".16"/><stop offset=".78" stop-color="#fff3e0" stop-opacity=".24"/><stop offset=".93" stop-color="#fff3e0" stop-opacity=".42"/><stop offset="1" stop-color="#fff3e0" stop-opacity="0"/></radialGradient><radialGradient id="r0k1"><stop offset="0" stop-color="#ffe0c2" stop-opacity=".16"/><stop offset=".78" stop-color="#ffe0c2" stop-opacity=".24"/><stop offset=".93" stop-color="#ffe0c2" stop-opacity=".42"/><stop offset="1" stop-color="#ffe0c2" stop-opacity="0"/></radialGradient><radialGradient id="r0k2"><stop offset="0" stop-color="#f6c1d9" stop-opacity=".16"/><stop offset=".78" stop-color="#f6c1d9" stop-opacity=".24"/><stop offset=".93" stop-color="#f6c1d9" stop-opacity=".42"/><stop offset="1" stop-color="#f6c1d9" stop-opacity="0"/></radialGradient><radialGradient id="r0k3"><stop offset="0" stop-color="#d9ccff" stop-opacity=".16"/><stop offset=".78" stop-color="#d9ccff" stop-opacity=".24"/><stop offset=".93" stop-color="#d9ccff" stop-opacity=".42"/><stop offset="1" stop-color="#d9ccff" stop-opacity="0"/></radialGradient><radialGradient id="r0k4"><stop offset="0" stop-color="#b9a8ff" stop-opacity=".16"/><stop offset=".78" stop-color="#b9a8ff" stop-opacity=".24"/><stop offset=".93" stop-color="#b9a8ff" stop-opacity=".42"/><stop offset="1" stop-color="#b9a8ff" stop-opacity="0"/></radialGradient><radialGradient id="r0k5"><stop offset="0" stop-color="#9cc8ff" stop-opacity=".16"/><stop offset=".78" stop-color="#9cc8ff" stop-opacity=".24"/><stop offset=".93" stop-color="#9cc8ff" stop-opacity=".42"/><stop offset="1" stop-color="#9cc8ff" stop-opacity="0"/></radialGradient><radialGradient id="r0k6"><stop offset="0" stop-color="#ffffff" stop-opacity=".16"/><stop offset=".78" stop-color="#ffffff" stop-opacity=".24"/><stop offset=".93" stop-color="#ffffff" stop-opacity=".42"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+<linearGradient id="r0line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8fd3ff" stop-opacity="0"/><stop offset=".5" stop-color="#8fd3ff"/><stop offset="1" stop-color="#8fd3ff" stop-opacity="0"/></linearGradient>
+</defs>
+<g clip-path="url(#r0clip)">
+<rect width="600" height="200" fill="url(#r0bg)"/>
+<circle cx="552" cy="10" r="110" fill="#b9a8ff" opacity=".22" filter="url(#r0b4)"/>
+<circle class="tw t4" cx="105" cy="17.1" r="0.59" fill="#dcd2ff" style="animation-delay:-4.26s"/><circle class="tw t4" cx="276.9" cy="191.1" r="0.81" fill="#e8f4ff" style="animation-delay:-0.81s"/><circle class="tw t1" cx="210.9" cy="82.2" r="0.77" fill="#ffffff" style="animation-delay:-0.19s"/><circle class="tw t3" cx="414.9" cy="126.5" r="1.21" fill="#ffffff" style="animation-delay:-4.89s"/><circle class="tw t3" cx="540.6" cy="15.2" r="0.46" fill="#dcd2ff" style="animation-delay:-3.23s"/><circle class="tw t4" cx="155.5" cy="84.4" r="0.58" fill="#e8f4ff" style="animation-delay:-3.64s"/><circle class="tw t1" cx="121.3" cy="155.3" r="0.88" fill="#c9dcff" style="animation-delay:-3.77s"/><circle class="tw t2" cx="490.2" cy="121.9" r="0.83" fill="#c9dcff" style="animation-delay:-5.15s"/><circle class="tw t3" cx="77.2" cy="1.7" r="0.65" fill="#ffffff" style="animation-delay:-4.19s"/><circle class="tw t4" cx="184.5" cy="39.2" r="1.27" fill="#e8f4ff" style="animation-delay:-0.57s"/><circle class="tw t1" cx="548.9" cy="46" r="0.8" fill="#ffffff" style="animation-delay:-1.78s"/><circle class="tw t3" cx="45.8" cy="8" r="0.56" fill="#dcd2ff" style="animation-delay:-5.53s"/><circle class="tw t3" cx="46.3" cy="132.9" r="1.31" fill="#c9dcff" style="animation-delay:-1.12s"/><circle class="tw t2" cx="331.9" cy="73.6" r="1.3" fill="#c9dcff" style="animation-delay:-2.73s"/><circle class="tw t4" cx="559" cy="90.9" r="1.24" fill="#ffffff" style="animation-delay:-1.03s"/><circle class="tw t2" cx="596.3" cy="68.7" r="1.12" fill="#c9dcff" style="animation-delay:-0.41s"/><circle class="tw t3" cx="548.2" cy="199.9" r="0.94" fill="#c9dcff" style="animation-delay:-3.97s"/><circle class="tw t1" cx="248.3" cy="195.5" r="1.03" fill="#ffffff" style="animation-delay:-0.05s"/>
+<g class="float" style="animation-delay:-1s"><circle cx="496.6" cy="173.6" r="14.6" fill="url(#r0k2)" opacity="0.45" filter="url(#r0b1)"/></g><g class="float" style="animation-delay:-0.39s"><circle cx="420.3" cy="194.5" r="43.1" fill="url(#r0k3)" opacity="0.48" filter="url(#r0b1)"/></g><g class="float" style="animation-delay:-2.74s"><circle cx="40.9" cy="163.6" r="22.8" fill="url(#r0k5)" opacity="0.42" filter="url(#r0b1)"/></g>
+</g>
+<g clip-path="url(#r0clip)">
+  <circle cx="560" cy="10" r="120" fill="#8fd3ff" opacity=".2" filter="url(#r0b4)"/>
+  <g class="scan"><rect x="0" y="198" width="200" height="2" fill="url(#r0line)"/></g>
+</g>
+<g transform="translate(26 28) scale(1.05)" fill="none" stroke="#8fd3ff" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><path d="M5 18.5V5.2C5 4 6 3 7.2 3H19v13.2H7.4C6 16.2 5 17.1 5 18.5s1 2.5 2.4 2.5H19"/><path d="M9 7h6"/></g>
+<text x="62" y="49" font-size="21" font-weight="600" fill="#eef4ff">Group-Research</text>
+<rect x="461.4" y="30" width="110.6" height="24" rx="12" fill="#8fd3ff" fill-opacity=".12" stroke="#8fd3ff" stroke-opacity=".5"/>
+<text x="516.7" y="46" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#8fd3ff">IN PROGRESS</text>
+<text x="30" y="94" font-size="15" fill="#a8bbea">One-stop research collaboration app: turns scattered ideas into research</text>
+<text x="30" y="118" font-size="15" fill="#a8bbea">concepts and automates literature retrieval &amp; analysis.</text>
+<circle cx="36" cy="161" r="6" fill="#f6c1d9"/>
+<text x="48" y="166" font-size="14" fill="#c9dcff">TypeScript</text>
+<g transform="translate(150.16 151) scale(0.72)" fill="#ffe0c2"><path d="M12 2.8l2.75 5.6 6.15.9-4.45 4.33 1.05 6.12L12 16.85l-5.5 2.9 1.05-6.12L3.1 9.3l6.15-.9z"/></g>
+<text x="172.2" y="166" font-size="14" fill="#c9dcff">1</text>
+<g transform="translate(208 151) scale(0.68)" fill="none" stroke="#a8bbea" stroke-width="1.7" stroke-linecap="round"><circle cx="6" cy="5" r="2.2"/><circle cx="18" cy="5" r="2.2"/><circle cx="12" cy="19" r="2.2"/><path d="M6 7.2v1.6c0 1.6 1.2 2.8 2.8 2.8h6.4c1.6 0 2.8-1.2 2.8-2.8V7.2M12 11.6v5.2"/></g>
+<text x="230" y="166" font-size="14" fill="#c9dcff">0</text>
+<rect x=".75" y=".75" width="598.5" height="198.5" rx="15.25" fill="none" stroke="url(#r0edge)" stroke-width="1.5"/>
+</svg>

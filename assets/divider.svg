@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="40" viewBox="0 0 1200 40" role="img" aria-label="divider">
+<title>divider</title>
+<style>
+text{font-family:'Segoe UI Variable Display','Segoe UI','SF Pro Display',-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif}
+.mono{font-family:'Cascadia Code','SF Mono','JetBrains Mono',Consolas,Menlo,monospace}
+.tw{animation:tw 4s ease-in-out infinite}
+.t1{animation-duration:2.6s}.t2{animation-duration:3.4s}.t3{animation-duration:4.6s}.t4{animation-duration:6s}
+@keyframes tw{0%,100%{opacity:.12}50%{opacity:1}}
+.float{animation:float 9s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+.pulse{animation:pulse 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(3.2)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.beat{animation:beat 3.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes beat{0%,100%{transform:scale(.8);opacity:.7}50%{transform:scale(1.15);opacity:1}}
+</style>
+<defs><filter id="db1" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.2"/></filter>
+<filter id="db2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"/></filter>
+<filter id="db3" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="db4" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="22"/></filter>
+<filter id="dglow" x="-30%" y="-80%" width="160%" height="260%">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="9" result="a"/>
+  <feFlood flood-color="#8fd3ff" flood-opacity=".75"/>
+  <feComposite in2="a" operator="in" result="g"/>
+  <feGaussianBlur in="SourceGraphic" stdDeviation="1.4" result="s"/>
+  <feMerge><feMergeNode in="g"/><feMergeNode in="g"/><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="dsoft" x="-30%" y="-80%" width="160%" height="260%">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="a"/>
+  <feFlood flood-color="#8fd3ff" flood-opacity=".45"/>
+  <feComposite in2="a" operator="in" result="g"/>
+  <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<linearGradient id="dg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6f9bff" stop-opacity="0"/><stop offset=".3" stop-color="#6f9bff"/><stop offset=".5" stop-color="#8fd3ff"/><stop offset=".7" stop-color="#b9a8ff"/><stop offset="1" stop-color="#b9a8ff" stop-opacity="0"/></linearGradient>
+</defs>
+<rect x="60" y="18" width="1080" height="4" rx="2" fill="url(#dg)" opacity=".5" filter="url(#db2)"/>
+<rect x="60" y="19.4" width="1080" height="1.2" fill="url(#dg)"/>
+<circle cx="60" cy="20" r="3" fill="#8fd3ff" filter="url(#db1)">
+  <animate attributeName="cx" values="300;900" dur="5s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+</circle>
+<path d="M540 16Q540.7 19.3 544 20Q540.7 20.7 540 24Q539.3 20.7 536 20Q539.3 19.3 540 16Z" fill="#b9a8ff" class="tw t2"/>
+<path d="M660 16Q660.7 19.3 664 20Q660.7 20.7 660 24Q659.3 20.7 656 20Q659.3 19.3 660 16Z" fill="#6f9bff" class="tw t3"/>
+<g class="beat"><path d="M600 11Q601.6 18.4 609 20Q601.6 21.6 600 29Q598.4 21.6 591 20Q598.4 18.4 600 11Z" fill="#6f9bff" filter="url(#dsoft)"/><path d="M600 16Q600.7 19.3 604 20Q600.7 20.7 600 24Q599.3 20.7 596 20Q599.3 19.3 600 16Z" fill="#e0435c"/></g>
+</svg>

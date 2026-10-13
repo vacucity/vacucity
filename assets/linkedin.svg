@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-label="Chujie Wang on LinkedIn — experience &amp; education">
+<title>Chujie Wang on LinkedIn — experience &amp; education</title>
+<style>
+text{font-family:'Segoe UI Variable Display','Segoe UI','SF Pro Display',-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif}
+.mono{font-family:'Cascadia Code','SF Mono','JetBrains Mono',Consolas,Menlo,monospace}
+.tw{animation:tw 4s ease-in-out infinite}
+.t1{animation-duration:2.6s}.t2{animation-duration:3.4s}.t3{animation-duration:4.6s}.t4{animation-duration:6s}
+@keyframes tw{0%,100%{opacity:.12}50%{opacity:1}}
+.float{animation:float 9s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+.pulse{animation:pulse 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(3.2)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.ring{animation:ring 3s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes ring{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(1.18,1.5)}}
+</style>
+<defs>
+<filter id="lb1" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.2"/></filter>
+<filter id="lb2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"/></filter>
+<filter id="lb3" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="lb4" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="22"/></filter>
+<filter id="lglow" x="-30%" y="-80%" width="160%" height="260%">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="9" result="a"/>
+  <feFlood flood-color="#8fd3ff" flood-opacity=".75"/>
+  <feComposite in2="a" operator="in" result="g"/>
+  <feGaussianBlur in="SourceGraphic" stdDeviation="1.4" result="s"/>
+  <feMerge><feMergeNode in="g"/><feMergeNode in="g"/><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="lsoft" x="-30%" y="-80%" width="160%" height="260%">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="a"/>
+  <feFlood flood-color="#8fd3ff" flood-opacity=".45"/>
+  <feComposite in2="a" operator="in" result="g"/>
+  <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<linearGradient id="lbg" x1="0" y1="0" x2=".35" y2="1">
+  <stop offset="0" stop-color="#050920"/><stop offset=".55" stop-color="#0b1236"/><stop offset="1" stop-color="#16246a"/>
+</linearGradient>
+<linearGradient id="ledge" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#8fd3ff" stop-opacity=".55"/><stop offset=".45" stop-color="#b9a8ff" stop-opacity=".12"/><stop offset="1" stop-color="#f6c1d9" stop-opacity=".45"/>
+</linearGradient>
+<clipPath id="lclip"><rect width="1200" height="610" rx="18"/></clipPath>
+<radialGradient id="lk0"><stop offset="0" stop-color="#fff3e0" stop-opacity=".16"/><stop offset=".78" stop-color="#fff3e0" stop-opacity=".24"/><stop offset=".93" stop-color="#fff3e0" stop-opacity=".42"/><stop offset="1" stop-color="#fff3e0" stop-opacity="0"/></radialGradient><radialGradient id="lk1"><stop offset="0" stop-color="#ffe0c2" stop-opacity=".16"/><stop offset=".78" stop-color="#ffe0c2" stop-opacity=".24"/><stop offset=".93" stop-color="#ffe0c2" stop-opacity=".42"/><stop offset="1" stop-color="#ffe0c2" stop-opacity="0"/></radialGradient><radialGradient id="lk2"><stop offset="0" stop-color="#f6c1d9" stop-opacity=".16"/><stop offset=".78" stop-color="#f6c1d9" stop-opacity=".24"/><stop offset=".93" stop-color="#f6c1d9" stop-opacity=".42"/><stop offset="1" stop-color="#f6c1d9" stop-opacity="0"/></radialGradient><radialGradient id="lk3"><stop offset="0" stop-color="#d9ccff" stop-opacity=".16"/><stop offset=".78" stop-color="#d9ccff" stop-opacity=".24"/><stop offset=".93" stop-color="#d9ccff" stop-opacity=".42"/><stop offset="1" stop-color="#d9ccff" stop-opacity="0"/></radialGradient><radialGradient id="lk4"><stop offset="0" stop-color="#b9a8ff" stop-opacity=".16"/><stop offset=".78" stop-color="#b9a8ff" stop-opacity=".24"/><stop offset=".93" stop-color="#b9a8ff" stop-opacity=".42"/><stop offset="1" stop-color="#b9a8ff" stop-opacity="0"/></radialGradient><radialGradient id="lk5"><stop offset="0" stop-color="#9cc8ff" stop-opacity=".16"/><stop offset=".78" stop-color="#9cc8ff" stop-opacity=".24"/><stop offset=".93" stop-color="#9cc8ff" stop-opacity=".42"/><stop offset="1" stop-color="#9cc8ff" stop-opacity="0"/></radialGradient><radialGradient id="lk6"><stop offset="0" stop-color="#ffffff" stop-opacity=".16"/><stop offset=".78" stop-color="#ffffff" stop-opacity=".24"/><stop offset=".93" stop-color="#ffffff" stop-opacity=".42"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+<linearGradient id="lbtn" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a66c2"/><stop offset="1" stop-color="#4a8dff"/></linearGradient>
+<linearGradient id="lrule" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8fd3ff" stop-opacity="0"/><stop offset=".2" stop-color="#8fd3ff" stop-opacity=".5"/><stop offset=".8" stop-color="#b9a8ff" stop-opacity=".5"/><stop offset="1" stop-color="#b9a8ff" stop-opacity="0"/></linearGradient>
+<linearGradient id="lline" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b9a8ff" stop-opacity="0"/><stop offset=".1" stop-color="#b9a8ff"/><stop offset=".5" stop-color="#8fd3ff"/><stop offset=".9" stop-color="#ffe0c2"/><stop offset="1" stop-color="#ffe0c2" stop-opacity="0"/></linearGradient>
+</defs>
+<g clip-path="url(#lclip)">
+<rect width="1200" height="610" fill="url(#lbg)"/>
+<circle cx="1104" cy="30.5" r="335.5" fill="#b9a8ff" opacity=".22" filter="url(#lb4)"/><circle cx="48" cy="597.8" r="335.5" fill="#3f86f0" opacity=".22" filter="url(#lb4)"/><circle cx="660" cy="671" r="335.5" fill="#8fd3ff" opacity=".22" filter="url(#lb4)"/>
+<circle class="tw t3" cx="240.4" cy="172.6" r="1.37" fill="#ffffff" style="animation-delay:-1.09s"/><circle class="tw t3" cx="119.3" cy="81" r="0.61" fill="#dcd2ff" style="animation-delay:-2.78s"/><circle class="tw t3" cx="808.3" cy="50.4" r="1.34" fill="#c9dcff" style="animation-delay:-3.75s"/><circle class="tw t3" cx="876.8" cy="246.2" r="0.69" fill="#ffffff" style="animation-delay:-2.27s"/><circle class="tw t2" cx="1039.5" cy="135" r="1.37" fill="#e8f4ff" style="animation-delay:-5.84s"/><circle class="tw t3" cx="969.5" cy="25.7" r="0.5" fill="#ffffff" style="animation-delay:-1.34s"/><circle class="tw t3" cx="656.7" cy="420.3" r="1.33" fill="#ffffff" style="animation-delay:-3.34s"/><circle class="tw t1" cx="155.6" cy="416" r="0.79" fill="#c9dcff" style="animation-delay:-4.18s"/><circle class="tw t1" cx="266.4" cy="297.8" r="0.61" fill="#c9dcff" style="animation-delay:-1.05s"/><circle class="tw t3" cx="40.4" cy="133.6" r="1.39" fill="#dcd2ff" style="animation-delay:-1.41s"/><circle class="tw t2" cx="833.6" cy="70.3" r="0.53" fill="#c9dcff" style="animation-delay:-0.31s"/><circle class="tw t3" cx="45.3" cy="9.4" r="0.75" fill="#dcd2ff" style="animation-delay:-0.64s"/><circle class="tw t1" cx="1132.5" cy="197.4" r="1.18" fill="#e8f4ff" style="animation-delay:-3.22s"/><circle class="tw t2" cx="462" cy="0.1" r="0.99" fill="#dcd2ff" style="animation-delay:-3.69s"/><circle class="tw t1" cx="131.4" cy="46.1" r="0.65" fill="#ffffff" style="animation-delay:-5.84s"/><circle class="tw t2" cx="309.2" cy="426.3" r="0.83" fill="#e8f4ff" style="animation-delay:-0.44s"/><circle class="tw t1" cx="866.2" cy="202.8" r="0.62" fill="#ffffff" style="animation-delay:-2.44s"/><circle class="tw t3" cx="921.9" cy="333.8" r="1.27" fill="#ffffff" style="animation-delay:-0.96s"/><circle class="tw t2" cx="141.4" cy="5.6" r="0.85" fill="#c9dcff" style="animation-delay:-2.64s"/><circle class="tw t2" cx="750" cy="173.3" r="0.49" fill="#dcd2ff" style="animation-delay:-5.02s"/><circle class="tw t2" cx="1155.7" cy="262.5" r="1.19" fill="#ffffff" style="animation-delay:-1.22s"/><circle class="tw t3" cx="250.5" cy="230.8" r="1.1" fill="#ffffff" style="animation-delay:-2.31s"/><circle class="tw t3" cx="863.7" cy="496.4" r="1.31" fill="#e8f4ff" style="animation-delay:-4.8s"/><circle class="tw t1" cx="609.5" cy="77.5" r="1.33" fill="#dcd2ff" style="animation-delay:-1.28s"/><circle class="tw t1" cx="760.2" cy="453.3" r="0.51" fill="#ffffff" style="animation-delay:-2.13s"/><circle class="tw t4" cx="658.7" cy="410.8" r="0.97" fill="#c9dcff" style="animation-delay:-5.13s"/><circle class="tw t1" cx="548.3" cy="36.1" r="1.38" fill="#dcd2ff" style="animation-delay:-0.97s"/><circle class="tw t1" cx="1026.6" cy="307.5" r="1.14" fill="#ffffff" style="animation-delay:-0.6s"/><circle class="tw t4" cx="819.9" cy="148.6" r="0.41" fill="#dcd2ff" style="animation-delay:-2.46s"/><circle class="tw t4" cx="60.6" cy="8" r="1.01" fill="#ffffff" style="animation-delay:-5.94s"/><circle class="tw t4" cx="780.4" cy="91.3" r="1.11" fill="#dcd2ff" style="animation-delay:-4.62s"/><circle class="tw t4" cx="213.3" cy="23.5" r="0.75" fill="#c9dcff" style="animation-delay:-2.71s"/><circle class="tw t3" cx="696.7" cy="73.3" r="0.63" fill="#ffffff" style="animation-delay:-1.87s"/><circle class="tw t3" cx="647.5" cy="286.9" r="0.5" fill="#dcd2ff" style="animation-delay:-2.7s"/><circle class="tw t4" cx="113.1" cy="115.4" r="0.78" fill="#dcd2ff" style="animation-delay:-4.74s"/><circle class="tw t1" cx="194.1" cy="277.2" r="0.67" fill="#e8f4ff" style="animation-delay:-3.08s"/><circle class="tw t3" cx="1145.5" cy="476.7" r="0.45" fill="#dcd2ff" style="animation-delay:-4.57s"/><circle class="tw t3" cx="197.5" cy="10" r="1.27" fill="#c9dcff" style="animation-delay:-4.51s"/><circle class="tw t1" cx="985.3" cy="121.5" r="0.69" fill="#e8f4ff" style="animation-delay:-0.46s"/><circle class="tw t1" cx="1028.7" cy="102.9" r="1.2" fill="#e8f4ff" style="animation-delay:-3.57s"/><circle class="tw t1" cx="411.4" cy="90.3" r="0.5" fill="#ffffff" style="animation-delay:-1.53s"/><circle class="tw t3" cx="206.9" cy="122.3" r="0.73" fill="#dcd2ff" style="animation-delay:-1.61s"/><circle class="tw t2" cx="632.1" cy="7" r="0.52" fill="#ffffff" style="animation-delay:-5.32s"/><circle class="tw t2" cx="104.4" cy="257.7" r="0.45" fill="#c9dcff" style="animation-delay:-4.76s"/><circle class="tw t2" cx="592.9" cy="149.2" r="1.06" fill="#ffffff" style="animation-delay:-1.22s"/><circle class="tw t2" cx="475.8" cy="221.8" r="0.73" fill="#dcd2ff" style="animation-delay:-4.89s"/>
+<g class="float" style="animation-delay:-3.19s"><circle cx="1075" cy="579.5" r="16.5" fill="url(#lk1)" opacity="0.4" filter="url(#lb1)"/></g><g class="float" style="animation-delay:-4.3s"><circle cx="1138.5" cy="519.4" r="39.2" fill="url(#lk3)" opacity="0.46" filter="url(#lb1)"/></g><g class="float" style="animation-delay:-5.52s"><circle cx="771.1" cy="34.4" r="17.3" fill="url(#lk1)" opacity="0.58" filter="url(#lb1)"/></g><g class="float" style="animation-delay:-3.41s"><circle cx="792.3" cy="5.4" r="15.5" fill="url(#lk1)" opacity="0.46" filter="url(#lb1)"/></g><g class="float" style="animation-delay:-2.06s"><circle cx="108.4" cy="564.4" r="35.4" fill="url(#lk1)" opacity="0.62" filter="url(#lb1)"/></g><g class="float" style="animation-delay:-7.79s"><circle cx="88.5" cy="139.3" r="18" fill="url(#lk5)" opacity="0.48" filter="url(#lb1)"/></g><g class="float" style="animation-delay:-5.52s"><circle cx="294.4" cy="606.7" r="42.7" fill="url(#lk2)" opacity="0.45" filter="url(#lb1)"/></g>
+</g>
+<circle cx="86" cy="84" r="60" fill="#0a66c2" opacity=".45" filter="url(#lb4)"/>
+<rect x="48" y="46" width="76" height="76" rx="17" fill="#0a66c2"/>
+<rect x="48.5" y="46.5" width="75" height="75" rx="16.5" fill="none" stroke="#ffffff" stroke-opacity=".25"/>
+<g transform="translate(54.5 52.5) scale(2.6)" fill="#fff"><circle cx="6.4" cy="6.2" r="2.1"/><rect x="4.6" y="9.4" width="3.6" height="10" rx=".4"/><rect x="10.4" y="9.4" width="3.5" height="10" rx=".4"/><path d="M13.9 13.4c0-2.6 1.7-4.2 3.8-4.2 2.4 0 3.6 1.6 3.6 4.4v5.8h-3.6v-5.3c0-1.2-.5-1.9-1.5-1.9-1.1 0-2.3.7-2.3 2.2z"/></g>
+<text x="150" y="86" font-size="36" font-weight="300" letter-spacing="2" fill="#eef4ff" filter="url(#lsoft)">Chujie Wang</text>
+<text x="150" y="117" font-size="16" fill="#a8bbea">M.S. Applied Data Science @ UChicago  ·  Finance @ ZUEL  ·  Economics × AI</text>
+<text class="mono" x="150" y="143" font-size="13" fill="#6f82bd">linkedin.com/in/vacucity</text>
+
+<rect class="ring" x="902" y="60" width="250" height="52" rx="26" fill="none" stroke="#6fa8ff" stroke-width="1.5"/>
+<rect x="902" y="60" width="250" height="52" rx="26" fill="url(#lbtn)"/>
+<rect x="902.5" y="60.5" width="249" height="51" rx="25.5" fill="none" stroke="#ffffff" stroke-opacity=".3"/>
+<text x="1012" y="92" text-anchor="middle" font-size="16" font-weight="600" fill="#ffffff">Connect on LinkedIn</text>
+<path d="M1118 93l9-9m-6.5 0h6.5v6.5" fill="none" stroke="#ffffff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+
+<rect x="48" y="180" width="1104" height="1" fill="url(#lrule)"/>
+<path d="M56 212Q57.1 216.9 62 218Q57.1 219.1 56 224Q54.9 219.1 50 218Q54.9 216.9 56 212Z" fill="#8fd3ff"/>
+<text x="72" y="223" font-size="12" font-weight="700" letter-spacing="4" fill="#a8bbea">EXPERIENCE  &amp;  EDUCATION</text>
+<circle cx="964" cy="218" r="5" fill="#b9a8ff"/><text x="974" y="223" font-size="13" fill="#a8bbea">Education</text>
+<circle cx="1064" cy="218" r="5" fill="#8fd3ff"/><text x="1074" y="223" font-size="13" fill="#a8bbea">Experience</text>
+
+<rect x="60" y="372.5" width="1080" height="3" rx="1.5" fill="url(#lline)" opacity=".9"/>
+<rect x="60" y="369" width="1080" height="10" rx="5" fill="url(#lline)" opacity=".35" filter="url(#lb2)"/>
+<circle cx="130" cy="374" r="6" fill="#ffffff" filter="url(#lb2)">
+  <animate attributeName="cx" values="130;1070" dur="7s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.9;1" dur="7s" repeatCount="indefinite"/>
+</circle>
+<line x1="130" y1="328" x2="130" y2="360" stroke="#b9a8ff" stroke-opacity=".45" stroke-dasharray="2 4"/>
+<circle cx="130" cy="374" r="15" fill="#b9a8ff" opacity=".3" filter="url(#lb2)"/>
+
+<circle cx="130" cy="374" r="5.5" fill="#b9a8ff"/>
+<circle cx="130" cy="374" r="2.2" fill="#ffffff"/>
+<text class="mono" x="130" y="262" text-anchor="middle" font-size="12" fill="#b9a8ff" letter-spacing=".5">09/2021 – 06/2025</text>
+<text x="130" y="290" text-anchor="middle" font-size="17" font-weight="600" fill="#eef4ff">ZUEL</text>
+<text x="130" y="314" text-anchor="middle" font-size="14" fill="#a8bbea">Finance · Undergraduate</text><line x1="286.7" y1="388" x2="286.7" y2="414" stroke="#8fd3ff" stroke-opacity=".45" stroke-dasharray="2 4"/>
+<circle cx="286.7" cy="374" r="15" fill="#8fd3ff" opacity=".3" filter="url(#lb2)"/>
+
+<circle cx="286.7" cy="374" r="5.5" fill="#8fd3ff"/>
+<circle cx="286.7" cy="374" r="2.2" fill="#ffffff"/>
+<text class="mono" x="286.7" y="436" text-anchor="middle" font-size="12" fill="#8fd3ff" letter-spacing=".5">10/2023 – 12/2023</text>
+<text x="286.7" y="464" text-anchor="middle" font-size="17" font-weight="600" fill="#eef4ff">McKinsey &amp; Company</text>
+<text x="286.7" y="488" text-anchor="middle" font-size="14" fill="#a8bbea">Strategy Intern</text><line x1="443.3" y1="328" x2="443.3" y2="360" stroke="#8fd3ff" stroke-opacity=".45" stroke-dasharray="2 4"/>
+<circle cx="443.3" cy="374" r="15" fill="#8fd3ff" opacity=".3" filter="url(#lb2)"/>
+
+<circle cx="443.3" cy="374" r="5.5" fill="#8fd3ff"/>
+<circle cx="443.3" cy="374" r="2.2" fill="#ffffff"/>
+<text class="mono" x="443.3" y="262" text-anchor="middle" font-size="12" fill="#8fd3ff" letter-spacing=".5">06/2024 – 09/2024</text>
+<text x="443.3" y="290" text-anchor="middle" font-size="17" font-weight="600" fill="#eef4ff">Changjiang Securities</text>
+<text x="443.3" y="314" text-anchor="middle" font-size="14" fill="#a8bbea">Research Intern · Food &amp; Bev</text><line x1="600" y1="388" x2="600" y2="414" stroke="#8fd3ff" stroke-opacity=".45" stroke-dasharray="2 4"/>
+<circle cx="600" cy="374" r="15" fill="#8fd3ff" opacity=".3" filter="url(#lb2)"/>
+
+<circle cx="600" cy="374" r="5.5" fill="#8fd3ff"/>
+<circle cx="600" cy="374" r="2.2" fill="#ffffff"/>
+<text class="mono" x="600" y="436" text-anchor="middle" font-size="12" fill="#8fd3ff" letter-spacing=".5">07/2025 – 10/2025</text>
+<text x="600" y="464" text-anchor="middle" font-size="17" font-weight="600" fill="#eef4ff">Qu County Project</text>
+<text x="600" y="488" text-anchor="middle" font-size="14" fill="#a8bbea">Modeling Consultant</text><line x1="756.7" y1="328" x2="756.7" y2="360" stroke="#8fd3ff" stroke-opacity=".45" stroke-dasharray="2 4"/>
+<circle cx="756.7" cy="374" r="15" fill="#8fd3ff" opacity=".3" filter="url(#lb2)"/>
+
+<circle cx="756.7" cy="374" r="5.5" fill="#8fd3ff"/>
+<circle cx="756.7" cy="374" r="2.2" fill="#ffffff"/>
+<text class="mono" x="756.7" y="262" text-anchor="middle" font-size="12" fill="#8fd3ff" letter-spacing=".5">11/2025 – 02/2026</text>
+<text x="756.7" y="290" text-anchor="middle" font-size="17" font-weight="600" fill="#eef4ff">HengZong XinXi</text>
+<text x="756.7" y="314" text-anchor="middle" font-size="14" fill="#a8bbea">Algorithm Research · RAG</text><line x1="913.3" y1="388" x2="913.3" y2="414" stroke="#8fd3ff" stroke-opacity=".45" stroke-dasharray="2 4"/>
+<circle cx="913.3" cy="374" r="15" fill="#8fd3ff" opacity=".3" filter="url(#lb2)"/>
+
+<circle cx="913.3" cy="374" r="5.5" fill="#8fd3ff"/>
+<circle cx="913.3" cy="374" r="2.2" fill="#ffffff"/>
+<text class="mono" x="913.3" y="436" text-anchor="middle" font-size="12" fill="#8fd3ff" letter-spacing=".5">06/2026 – 09/2026</text>
+<text x="913.3" y="464" text-anchor="middle" font-size="17" font-weight="600" fill="#eef4ff">Guancheng Digital</text>
+<text x="913.3" y="488" text-anchor="middle" font-size="14" fill="#a8bbea">Forward Deployed Engineer</text><line x1="1070" y1="328" x2="1070" y2="360" stroke="#b9a8ff" stroke-opacity=".45" stroke-dasharray="2 4"/>
+<circle cx="1070" cy="374" r="15" fill="#b9a8ff" opacity=".3" filter="url(#lb2)"/>
+<circle class="pulse" cx="1070" cy="374" r="8" fill="none" stroke="#ffe0c2" stroke-width="1.5"/>
+<circle cx="1070" cy="374" r="7" fill="#ffe0c2"/>
+<circle cx="1070" cy="374" r="2.2" fill="#ffffff"/>
+<text class="mono" x="1070" y="262" text-anchor="middle" font-size="12" fill="#b9a8ff" letter-spacing=".5">09/2026 – 06/2028  ·  NOW</text>
+<text x="1070" y="290" text-anchor="middle" font-size="17" font-weight="600" fill="#eef4ff">UChicago</text>
+<text x="1070" y="314" text-anchor="middle" font-size="14" fill="#a8bbea">M.S. Applied Data Science</text>
+<text x="48" y="552" font-size="12" font-weight="700" letter-spacing="4" fill="#6f82bd">FOCUS</text><rect x="124" y="530" width="106.2" height="32" rx="16" fill="#8fd3ff" fill-opacity=".1" stroke="#8fd3ff" stroke-opacity=".45"/>
+<text x="177.1" y="551" text-anchor="middle" font-size="14" fill="#c9dcff">LLM Agents</text><rect x="240.2" y="530" width="113.4" height="32" rx="16" fill="#b9a8ff" fill-opacity=".1" stroke="#b9a8ff" stroke-opacity=".45"/>
+<text x="296.9" y="551" text-anchor="middle" font-size="14" fill="#c9dcff">Agentic RAG</text><rect x="363.6" y="530" width="239.4" height="32" rx="16" fill="#f6c1d9" fill-opacity=".1" stroke="#f6c1d9" stroke-opacity=".45"/>
+<text x="483.3" y="551" text-anchor="middle" font-size="14" fill="#c9dcff">Multimodal Metaphor Detection</text><rect x="613" y="530" width="186.5" height="32" rx="16" fill="#ffe0c2" fill-opacity=".1" stroke="#ffe0c2" stroke-opacity=".45"/>
+<text x="706.3" y="551" text-anchor="middle" font-size="14" fill="#c9dcff">Causal Inference · DID</text><rect x="809.6" y="530" width="190.4" height="32" rx="16" fill="#6f9bff" fill-opacity=".1" stroke="#6f9bff" stroke-opacity=".45"/>
+<text x="904.8" y="551" text-anchor="middle" font-size="14" fill="#c9dcff">Labor &amp; Innovation Econ</text><rect x="1010" y="530" width="104.5" height="32" rx="16" fill="#9ff0dc" fill-opacity=".1" stroke="#9ff0dc" stroke-opacity=".45"/>
+<text x="1062.2" y="551" text-anchor="middle" font-size="14" fill="#c9dcff">FRM Part I</text>
+<text class="mono" x="1152" y="592" text-anchor="end" font-size="11" fill="#6f82bd">click to open the full profile on LinkedIn ↗</text>
+<rect x=".75" y=".75" width="1198.5" height="608.5" rx="17.25" fill="none" stroke="url(#ledge)" stroke-width="1.5"/>
+</svg>
