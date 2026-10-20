@@ -61,7 +61,7 @@ text{font-family:'Segoe UI Variable Display','Segoe UI','SF Pro Display',-apple-
 <circle cx="36" cy="161" r="6" fill="#b9a8ff"/>
 <text x="48" y="166" font-size="14" fill="#c9dcff">Python</text>
 <g transform="translate(119.36 151) scale(0.72)" fill="#ffe0c2"><path d="M12 2.8l2.75 5.6 6.15.9-4.45 4.33 1.05 6.12L12 16.85l-5.5 2.9 1.05-6.12L3.1 9.3l6.15-.9z"/></g>
-<text x="141.4" y="166" font-size="14" fill="#c9dcff">3</text>
+<text x="141.4" y="166" font-size="14" fill="#c9dcff">4</text>
 <g transform="translate(177.2 151) scale(0.68)" fill="none" stroke="#a8bbea" stroke-width="1.7" stroke-linecap="round"><circle cx="6" cy="5" r="2.2"/><circle cx="18" cy="5" r="2.2"/><circle cx="12" cy="19" r="2.2"/><path d="M6 7.2v1.6c0 1.6 1.2 2.8 2.8 2.8h6.4c1.6 0 2.8-1.2 2.8-2.8V7.2M12 11.6v5.2"/></g>
 <text x="199.2" y="166" font-size="14" fill="#c9dcff">0</text>
 <rect x=".75" y=".75" width="598.5" height="198.5" rx="15.25" fill="none" stroke="url(#r2edge)" stroke-width="1.5"/>

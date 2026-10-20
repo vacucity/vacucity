@@ -56,7 +56,7 @@ text{font-family:'Segoe UI Variable Display','Segoe UI','SF Pro Display',-apple-
 <text x="72" y="160" font-size="11" font-weight="700" letter-spacing="3" fill="#a8bbea">REPOSITORIES</text><rect x="326" y="86" width="262" height="88" rx="14" fill="#ffffff" fill-opacity=".035" stroke="#ffe0c2" stroke-opacity=".22"/>
 <circle cx="546" cy="116" r="26" fill="#ffe0c2" opacity=".16" filter="url(#sb3)"/>
 <path d="M548 108Q549.4 114.6 556 116Q549.4 117.4 548 124Q546.6 117.4 540 116Q546.6 114.6 548 108Z" fill="#ffe0c2" class="tw t2"/>
-<text x="350" y="138" font-size="40" font-weight="200" fill="#eef4ff" filter="url(#ssoft)">23</text>
+<text x="350" y="138" font-size="40" font-weight="200" fill="#eef4ff" filter="url(#ssoft)">26</text>
 <text x="350" y="160" font-size="11" font-weight="700" letter-spacing="3" fill="#a8bbea">STARS EARNED</text><rect x="48" y="188" width="262" height="88" rx="14" fill="#ffffff" fill-opacity=".035" stroke="#b9a8ff" stroke-opacity=".22"/>
 <circle cx="268" cy="218" r="26" fill="#b9a8ff" opacity=".16" filter="url(#sb3)"/>
 <path d="M270 210Q271.4 216.6 278 218Q271.4 219.4 270 226Q268.6 219.4 262 218Q268.6 216.6 270 210Z" fill="#b9a8ff" class="tw t3"/>
