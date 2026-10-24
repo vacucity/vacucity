@@ -32,7 +32,7 @@
 <a href="https://github.com/vacucity/ML-for-Sanan-Li"><img src="./assets/repo-ML-for-Sanan-Li.svg" width="49%" alt="ML-for-Sanan-Li"/></a>
 </p>
 
-**三安计量学社 · learning series**
+**UCVC AI Lab · learning series**
 
 | [Machine Learning](https://github.com/vacucity/ML-for-Sanan-Li) | [Deep Learning](https://github.com/vacucity/DL-for-Sanan-LI) | [Reinforcement Learning](https://github.com/vacucity/RL-for-Sanan-Li) | [RAG](https://github.com/vacucity/RAG-for-Sanan-Li) | [CS336 · LM from scratch](https://github.com/vacucity/cs336-for-Sanan-Li) | [Agents](https://github.com/vacucity/Agent_learning) |
 |:-:|:-:|:-:|:-:|:-:|:-:|
