@@ -14,8 +14,8 @@
 
 - 🎓 **M.S. Applied Data Science @ UChicago** (2026 – 2027) · Finance @ ZUEL (2021 – 2025)
 - 🤖 Building **LLM agents & agentic RAG**, from research tooling to multi-agent decision reports
-- 📈 Empirical economist at heart: **labor, innovation, ESG & digital governance**, mostly staggered DID
-- 🧪 Also exploring **multimodal metaphor detection** and multimodal information fusion
+- 📈 Economic: **labor, innovation, ESG & digital governance** Currently, I only do theoretical research.
+- 🧪 LLM: **Multimodal metaphor detection**, **Memory**, **VLA**
 - 🏆 2nd Prize · Adventure-X 2026 (ZILO track) &nbsp;·&nbsp; Honorable Mention · MCM 2025 &nbsp;·&nbsp; FRM Part I
 - 💬 *Economics is for the fun, coding is the future.*
 
