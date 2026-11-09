@@ -1,10 +1,11 @@
 // Live cards: GitHub stats and featured repositories, refreshed by the workflow.
 import { C, ACCENTS, rng, esc, n, textWidth, wrap, svg, baseDefs, baseCss, sparkle, panel, ICON } from './theme.mjs';
 
-async function gh(path) {
+async function gh(path, { allow404 = false } = {}) {
   const headers = { 'User-Agent': 'vacucity-profile', Accept: 'application/vnd.github+json' };
   if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
   const res = await fetch(`https://api.github.com${path}`, { headers });
+  if (allow404 && res.status === 404) return null;
   if (!res.ok) throw new Error(`GET ${path} → ${res.status} ${await res.text()}`);
   return res.json();
 }
@@ -17,6 +18,12 @@ async function ghAll(path) {
     all.push(...batch);
     if (batch.length < 100) return all;
   }
+}
+
+// Looks a repo up by name; follows GitHub's redirect when it was renamed or moved to another
+// owner, and returns null only when it is really gone (deleted or private). `name` may be "owner/repo".
+export async function lookupRepo(login, name) {
+  return gh(`/repos/${name.includes('/') ? name : `${login}/${name}`}`, { allow404: true });
 }
 
 export async function fetchGitHub(login) {
@@ -110,10 +117,8 @@ ${pan.border}`;
   return svg(W, H, `GitHub stats for ${G.user.login}`, body);
 }
 
-export function repoCard(G, f, i) {
+export function repoCard(G, f, i, repo) {
   const W = 600, H = 200, p = `r${i}`;
-  const repo = G.repos.find((x) => x.name.toLowerCase() === f.repo.toLowerCase());
-  if (!repo) throw new Error(`featured repo not found: ${f.repo}`);
   const r = rng(1000 + i);
   const accent = ACCENTS[i % ACCENTS.length];
   const pan = panel(p, W, H, r, { rx: 16, blooms: 1, discs: 3, starCount: 18 });

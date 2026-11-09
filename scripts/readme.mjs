@@ -6,14 +6,14 @@ const file = new URL('../README.md', import.meta.url);
 
 function featuredBlock(P, featured, series) {
   const cards = featured
-    .map((f) => `<a href="https://github.com/${P.user}/${f.repo}"><img src="./assets/repo-${f.repo}.svg" width="49%" alt="${f.repo}"/></a>`)
+    .map((f) => `<a href="${f.info.html_url}"><img src="./assets/repo-${f.repo}.svg" width="49%" alt="${f.repo}"/></a>`)
     .join('\n');
   let out = `<p align="center">\n${cards}\n</p>`;
   if (series.length) {
-    const head = series.map((s) => `[${s.label}](https://github.com/${P.user}/${s.repo})`);
+    const head = series.map((s) => `[${s.label}](${s.info.html_url})`);
     const rule = series.map(() => ':-:');
     const stars = series.map(
-      (s) => `![](https://img.shields.io/github/stars/${P.user}/${s.repo}?style=flat-square&color=${s.color}&labelColor=0b1236&label=★)`,
+      (s) => `![](https://img.shields.io/github/stars/${s.info.full_name}?style=flat-square&color=${s.color}&labelColor=0b1236&label=★)`,
     );
     const row = (cells) => `| ${cells.join(' | ')} |`;
     out += `\n\n**${P.seriesTitle}**\n\n${row(head)}\n|${rule.join('|')}|\n${row(stars)}`;

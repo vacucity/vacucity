@@ -4,7 +4,7 @@
 import { readFile, writeFile, mkdir, readdir, unlink } from 'node:fs/promises';
 import { profile as P } from './profile.mjs';
 import { header, button, nameCard, linkedinCard, divider, footer } from './art.mjs';
-import { fetchGitHub, statsCard, repoCard } from './stats.mjs';
+import { fetchGitHub, lookupRepo, statsCard, repoCard } from './stats.mjs';
 import { updateReadme } from './readme.mjs';
 
 const out = new URL('../assets/', import.meta.url);
@@ -45,15 +45,16 @@ await emit({
 
 if (!process.argv.includes('--static')) {
   const G = await fetchGitHub(P.user);
-  // Drop anything that is gone from GitHub (deleted, renamed, made private) instead of failing the build.
-  const exists = (name) => G.repos.some((r) => r.name.toLowerCase() === name.toLowerCase());
-  const keep = (list, what) =>
-    (list || []).filter((x) => exists(x.repo) || (console.warn(`  ⚠ ${what} repo not found on GitHub, skipped: ${x.repo}`), false));
-  const featured = keep(P.featured, 'featured');
-  const series = keep(P.series, 'series');
+  // Resolve every listed repo (following renames/transfers); drop only the ones that are really gone.
+  const resolve = async (list, what) => {
+    const found = await Promise.all((list || []).map(async (x) => ({ ...x, info: await lookupRepo(P.user, x.repo) })));
+    return found.filter((x) => x.info || (console.warn(`  ⚠ ${what} repo not found on GitHub, skipped: ${x.repo}`), false));
+  };
+  const featured = await resolve(P.featured, 'featured');
+  const series = await resolve(P.series, 'series');
 
   const files = { 'stats.svg': statsCard(G) };
-  featured.forEach((f, i) => (files[`repo-${f.repo}.svg`] = repoCard(G, f, i)));
+  featured.forEach((f, i) => (files[`repo-${f.repo}.svg`] = repoCard(G, f, i, f.info)));
   await emit(files);
 
   // Remove cards for repos that are no longer featured.
