@@ -52,10 +52,11 @@ export const profile = {
   // "Learning series" table under the cards. Order here = column order in the README.
   seriesTitle: 'UCVC AI Lab · learning series',
   series: [
-    { repo: 'DL-for-Sanan-LI', label: 'Deep Learning', color: 'b9a8ff' },
-    { repo: 'RL-for-Sanan-Li', label: 'Reinforcement Learning', color: 'f6c1d9' },
-    { repo: 'RAG-for-Sanan-Li', label: 'RAG', color: 'ffe0c2' },
-    { repo: 'cs336-for-Sanan-Li', label: 'CS336 · LM from scratch', color: '6f9bff' },
-    { repo: 'Agent_learning', label: 'Agents', color: '9ff0dc' },
+    { repo: 'UCVC-AI-Lab-Machine-Learning', label: 'Machine Learning', color: '8fd3ff' },
+    { repo: 'UCVC-AI-Lab-Deep-Learning', label: 'Deep Learning', color: 'b9a8ff' },
+    { repo: 'UCVC-AI-Lab-Reinforcement-Learning', label: 'Reinforcement Learning', color: 'f6c1d9' },
+    { repo: 'UCVC-AI-Lab-RAG', label: 'RAG', color: 'ffe0c2' },
+    { repo: 'UCVC-AI-Lab-CS336', label: 'CS336 · LM from scratch', color: '6f9bff' },
+    { repo: 'UCVC-AI-Lab-Agent', label: 'Agents', color: '9ff0dc' },
   ],
 };
