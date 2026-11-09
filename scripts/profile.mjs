@@ -41,10 +41,21 @@ export const profile = {
   focus: ['LLM Agents', 'Agentic RAG', 'Multimodal Metaphor Detection', 'Causal Inference · DID', 'Labor & Innovation Econ', 'FRM Part I'],
 
   // Repo cards. Descriptions override the (often empty) GitHub ones.
+  // Add, remove or reorder entries here; the README section and the card SVGs follow automatically.
+  // A repo that no longer exists (deleted, renamed, made private) is skipped with a warning.
   featured: [
     { repo: 'Group-Research', tag: 'IN PROGRESS', desc: 'One-stop research collaboration app: turns scattered ideas into research concepts and automates literature retrieval & analysis.' },
     { repo: 'Decree-Farm', tag: 'ADVENTURE-X · 2ND PRIZE', desc: 'Gamified focus manager: a smart ring reads your focus, and an AI agent farms Stardew Valley for you.' },
     { repo: 'ScenicMind', tag: 'MULTI-AGENT', desc: 'AI copilot for scenic-area ops: visitor-flow forecasting, 8 KPI modules and multi-agent decision reports.' },
-    { repo: 'ML-for-Sanan-Li', tag: '三安计量学社', desc: 'Machine-learning course notebooks for the Sanan econometrics study group, one of a series with DL, RL, RAG and CS336.' },
+  ],
+
+  // "Learning series" table under the cards. Order here = column order in the README.
+  seriesTitle: 'UCVC AI Lab · learning series',
+  series: [
+    { repo: 'DL-for-Sanan-LI', label: 'Deep Learning', color: 'b9a8ff' },
+    { repo: 'RL-for-Sanan-Li', label: 'Reinforcement Learning', color: 'f6c1d9' },
+    { repo: 'RAG-for-Sanan-Li', label: 'RAG', color: 'ffe0c2' },
+    { repo: 'cs336-for-Sanan-Li', label: 'CS336 · LM from scratch', color: '6f9bff' },
+    { repo: 'Agent_learning', label: 'Agents', color: '9ff0dc' },
   ],
 };

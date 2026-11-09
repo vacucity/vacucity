@@ -9,8 +9,18 @@ async function gh(path) {
   return res.json();
 }
 
+// Follows pagination so accounts with more than 100 repos are fully listed.
+async function ghAll(path) {
+  const all = [];
+  for (let page = 1; ; page++) {
+    const batch = await gh(`${path}&page=${page}`);
+    all.push(...batch);
+    if (batch.length < 100) return all;
+  }
+}
+
 export async function fetchGitHub(login) {
-  const [user, repos] = await Promise.all([gh(`/users/${login}`), gh(`/users/${login}/repos?per_page=100&type=owner`)]);
+  const [user, repos] = await Promise.all([gh(`/users/${login}`), ghAll(`/users/${login}/repos?per_page=100&type=owner`)]);
   const own = repos.filter((r) => !r.fork);
   // Notebook outputs dwarf everything by bytes, so each repo gets one equal vote,
   // split across its languages by byte share.

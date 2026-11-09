@@ -25,18 +25,19 @@
 
 ## ✦ Featured projects
 
+<!-- featured:start -->
 <p align="center">
 <a href="https://github.com/vacucity/Group-Research"><img src="./assets/repo-Group-Research.svg" width="49%" alt="Group-Research"/></a>
 <a href="https://github.com/vacucity/Decree-Farm"><img src="./assets/repo-Decree-Farm.svg" width="49%" alt="Decree-Farm"/></a>
 <a href="https://github.com/vacucity/ScenicMind"><img src="./assets/repo-ScenicMind.svg" width="49%" alt="ScenicMind"/></a>
-<a href="https://github.com/vacucity/ML-for-Sanan-Li"><img src="./assets/repo-ML-for-Sanan-Li.svg" width="49%" alt="ML-for-Sanan-Li"/></a>
 </p>
 
 **UCVC AI Lab · learning series**
 
-| [Machine Learning](https://github.com/vacucity/ML-for-Sanan-Li) | [Deep Learning](https://github.com/vacucity/DL-for-Sanan-LI) | [Reinforcement Learning](https://github.com/vacucity/RL-for-Sanan-Li) | [RAG](https://github.com/vacucity/RAG-for-Sanan-Li) | [CS336 · LM from scratch](https://github.com/vacucity/cs336-for-Sanan-Li) | [Agents](https://github.com/vacucity/Agent_learning) |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| ![](https://img.shields.io/github/stars/vacucity/ML-for-Sanan-Li?style=flat-square&color=8fd3ff&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/DL-for-Sanan-LI?style=flat-square&color=b9a8ff&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/RL-for-Sanan-Li?style=flat-square&color=f6c1d9&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/RAG-for-Sanan-Li?style=flat-square&color=ffe0c2&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/cs336-for-Sanan-Li?style=flat-square&color=6f9bff&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/Agent_learning?style=flat-square&color=9ff0dc&labelColor=0b1236&label=★) |
+| [Deep Learning](https://github.com/vacucity/DL-for-Sanan-LI) | [Reinforcement Learning](https://github.com/vacucity/RL-for-Sanan-Li) | [RAG](https://github.com/vacucity/RAG-for-Sanan-Li) | [CS336 · LM from scratch](https://github.com/vacucity/cs336-for-Sanan-Li) |
+|:-:|:-:|:-:|:-:|
+| ![](https://img.shields.io/github/stars/vacucity/DL-for-Sanan-LI?style=flat-square&color=b9a8ff&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/RL-for-Sanan-Li?style=flat-square&color=f6c1d9&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/RAG-for-Sanan-Li?style=flat-square&color=ffe0c2&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/cs336-for-Sanan-Li?style=flat-square&color=6f9bff&labelColor=0b1236&label=★) |
+<!-- featured:end -->
 
 ## ✦ Research
 
