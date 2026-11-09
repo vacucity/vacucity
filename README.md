@@ -34,9 +34,9 @@
 
 **UCVC AI Lab · learning series**
 
-| [Deep Learning](https://github.com/vacucity/UCVC-AI-Lab-Deep-Learning) | [Reinforcement Learning](https://github.com/vacucity/UCVC-AI-Lab-Reinforcement-Learning) | [RAG](https://github.com/vacucity/UCVC-AI-Lab-RAG) | [CS336 · LM from scratch](https://github.com/vacucity/UCVC-AI-Lab-CS336) |
-|:-:|:-:|:-:|:-:|
-| ![](https://img.shields.io/github/stars/vacucity/UCVC-AI-Lab-Deep-Learning?style=flat-square&color=b9a8ff&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/UCVC-AI-Lab-Reinforcement-Learning?style=flat-square&color=f6c1d9&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/UCVC-AI-Lab-RAG?style=flat-square&color=ffe0c2&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/UCVC-AI-Lab-CS336?style=flat-square&color=6f9bff&labelColor=0b1236&label=★) |
+| [Machine Learning](https://github.com/vacucity/UCVC-AI-Lab-Machine-Learning) | [Deep Learning](https://github.com/vacucity/UCVC-AI-Lab-Deep-Learning) | [Reinforcement Learning](https://github.com/vacucity/UCVC-AI-Lab-Reinforcement-Learning) | [RAG](https://github.com/vacucity/UCVC-AI-Lab-RAG) | [CS336 · LM from scratch](https://github.com/vacucity/UCVC-AI-Lab-CS336) | [Agents](https://github.com/vacucity/UCVC-AI-Lab-Agent) |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| ![](https://img.shields.io/github/stars/vacucity/UCVC-AI-Lab-Machine-Learning?style=flat-square&color=8fd3ff&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/UCVC-AI-Lab-Deep-Learning?style=flat-square&color=b9a8ff&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/UCVC-AI-Lab-Reinforcement-Learning?style=flat-square&color=f6c1d9&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/UCVC-AI-Lab-RAG?style=flat-square&color=ffe0c2&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/UCVC-AI-Lab-CS336?style=flat-square&color=6f9bff&labelColor=0b1236&label=★) | ![](https://img.shields.io/github/stars/vacucity/UCVC-AI-Lab-Agent?style=flat-square&color=9ff0dc&labelColor=0b1236&label=★) |
 <!-- featured:end -->
 
 ## ✦ Research
